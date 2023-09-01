@@ -13,3 +13,5 @@ jobs:
       - name: "Is there a file called hello.txt that contains 'World!'?"
         run: "[ -e hello.txt ] && diff hello.txt <(echo World!)"
         shell: bash
+
+print("hi")
